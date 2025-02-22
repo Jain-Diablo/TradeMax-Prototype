@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: #282c34;
+  margin: 20px 0;
+}
+
+button:hover {
+  background-color: #4fa8c7;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.stock-data {
+  background-color: #1a1f27;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.positive {
+  color: #4caf50;
+}
+
+.negative {
+  color: #f44336;
+}
+
+.error {
+  color: #f44336;
+  font-size: 16px;
+}
+
+.stock-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.selector-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.selector-group label {
+  font-size: 14px;
+  color: #61dafb;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+  min-width: 300px;
+}
+
+select:hover {
+  background-color: #4fa8c7;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 5px #61dafb;
+}
+
+.chart-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #1a1f27;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.header-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.logout-btn {
+  padding: 8px 16px;
+  background-color: #dc3545;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+.current-price {
+  background-color: #1a1f27;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  color: #61dafb;
+  font-size: 1.2em;
+}
+
+.calc-max-btn {
+  background-color: #28a745;
+  color: white;
+  margin: 10px 0;
+}
+
+.calc-max-btn:hover {
+  background-color: #218838;
+}
+
+.max-shares {
+  color: #28a745;
+  margin: 10px 0;
+  font-size: 0.9em;
+}
+
+.trading-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.trading-controls input {
+  width: 200px;
+  text-align: center;
+} 

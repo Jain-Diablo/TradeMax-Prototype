@@ -1,0 +1,74 @@
+.portfolio-container {
+  background-color: #1a1f27;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  color: white;
+}
+
+.balance-section {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #282c34;
+  border-radius: 5px;
+}
+
+.balance-section form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.balance-section input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  background-color: #1a1f27;
+  color: white;
+  width: 150px;
+}
+
+.holdings-section {
+  margin-top: 20px;
+}
+
+.holding-item {
+  background-color: #282c34;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+}
+
+.holding-item h4 {
+  color: #61dafb;
+  margin: 0 0 10px 0;
+}
+
+.holding-item p {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+.trading-controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.trading-controls input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  background-color: #282c34;
+  color: white;
+}
+
+.error {
+  color: #ff4444;
+  margin: 10px 0;
+} 
