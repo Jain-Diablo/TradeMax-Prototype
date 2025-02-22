@@ -153,4 +153,30 @@ select:focus {
 .trading-controls input {
   width: 200px;
   text-align: center;
+}
+
+.chart-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.chart-toggle {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.chart-toggle:hover {
+  background: #f5f5f5;
+}
+
+.chart-toggle.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
 } 
